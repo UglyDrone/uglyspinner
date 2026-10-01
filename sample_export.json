@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "firmware_version": "1.0.0",
+    "dshot_mode": "DSHOT600",
+    "telemetry_protocol": "KISS/AM32",
+    "start_time_ms": 123456,
+    "run_duration_ms": 38400,
+    "initial_throttle": 100,
+    "end_throttle": 1500,
+    "throttle_step": 100,
+    "stabilization_ms": 2000,
+    "measurement_ms": 3000,
+    "motor_poles": 14,
+    "load_cell_zero_offset": 84120,
+    "load_units": "grams",
+    "status": "COMPLETED",
+    "abort_reason": ""
+  },
+  "points": [
+    {
+      "throttle": 100,
+      "load": {
+        "mean": 24.32,
+        "min": 21.80,
+        "max": 26.50,
+        "stddev": 1.120,
+        "samples": 120
+      },
+      "rpm": 1820,
+      "erpm": 12740,
+      "current_a": 0.85,
+      "voltage_v": 25.18,
+      "temperature_c": 28.5
+    },
+    {
+      "throttle": 200,
+      "load": {
+        "mean": 58.75,
+        "min": 55.10,
+        "max": 62.30,
+        "stddev": 1.480,
+        "samples": 120
+      },
+      "rpm": 3140,
+      "erpm": 21980,
+      "current_a": 1.45,
+      "voltage_v": 25.14,
+      "temperature_c": 29.0
+    },
+    {
+      "throttle": 300,
+      "load": {
+        "mean": 115.40,
+        "min": 111.00,
+        "max": 119.80,
+        "stddev": 1.850,
+        "samples": 120
+      },
+      "rpm": 4480,
+      "erpm": 31360,
+      "current_a": 2.40,
+      "voltage_v": 25.08,
+      "temperature_c": 29.8
+    },
+    {
+      "throttle": 400,
+      "load": {
+        "mean": 196.20,
+        "min": 190.50,
+        "max": 201.70,
+        "stddev": 2.210,
+        "samples": 120
+      },
+      "rpm": 5910,
+      "erpm": 41370,
+      "current_a": 3.75,
+      "voltage_v": 25.01,
+      "temperature_c": 31.0
+    },
+    {
+      "throttle": 500,
+      "load": {
+        "mean": 302.80,
+        "min": 295.20,
+        "max": 309.40,
+        "stddev": 2.840,
+        "samples": 120
+      },
+      "rpm": 7420,
+      "erpm": 51940,
+      "current_a": 5.60,
+      "voltage_v": 24.92,
+      "temperature_c": 32.5
+    },
+    {
+      "throttle": 600,
+      "load": {
+        "mean": 435.60,
+        "min": 426.10,
+        "max": 444.90,
+        "stddev": 3.510,
+        "samples": 120
+      },
+      "rpm": 9010,
+      "erpm": 63070,
+      "current_a": 7.95,
+      "voltage_v": 24.81,
+      "temperature_c": 34.2
+    },
+    {
+      "throttle": 700,
+      "load": {
+        "mean": 595.10,
+        "min": 583.40,
+        "max": 606.80,
+        "stddev": 4.300,
+        "samples": 120
+      },
+      "rpm": 10680,
+      "erpm": 74760,
+      "current_a": 10.90,
+      "voltage_v": 24.68,
+      "temperature_c": 36.1
+    },
+    {
+      "throttle": 800,
+      "load": {
+        "mean": 782.30,
+        "min": 768.50,
+        "max": 796.20,
+        "stddev": 5.250,
+        "samples": 120
+      },
+      "rpm": 12420,
+      "erpm": 86940,
+      "current_a": 14.50,
+      "voltage_v": 24.52,
+      "temperature_c": 38.4
+    },
+    {
+      "throttle": 900,
+      "load": {
+        "mean": 998.50,
+        "min": 782.00,
+        "max": 1015.00,
+        "stddev": 6.320,
+        "samples": 120
+      },
+      "rpm": 14210,
+      "erpm": 99470,
+      "current_a": 18.80,
+      "voltage_v": 24.34,
+      "temperature_c": 41.0
+    },
+    {
+      "throttle": 1000,
+      "load": {
+        "mean": 1243.00,
+        "min": 1224.50,
+        "max": 1261.20,
+        "stddev": 7.600,
+        "samples": 120
+      },
+      "rpm": 16050,
+      "erpm": 112350,
+      "current_a": 23.90,
+      "voltage_v": 24.12,
+      "temperature_c": 43.8
+    },
+    {
+      "throttle": 1100,
+      "load": {
+        "mean": 1515.80,
+        "min": 1493.00,
+        "max": 1538.50,
+        "stddev": 9.100,
+        "samples": 120
+      },
+      "rpm": 17920,
+      "erpm": 125440,
+      "current_a": 29.80,
+      "voltage_v": 23.86,
+      "temperature_c": 47.0
+    },
+    {
+      "throttle": 1200,
+      "load": {
+        "mean": 1816.50,
+        "min": 1789.20,
+        "max": 1843.80,
+        "stddev": 10.800,
+        "samples": 120
+      },
+      "rpm": 19810,
+      "erpm": 138670,
+      "current_a": 36.60,
+      "voltage_v": 23.56,
+      "temperature_c": 50.5
+    },
+    {
+      "throttle": 1300,
+      "load": {
+        "mean": 2144.20,
+        "min": 2112.00,
+        "max": 2176.40,
+        "stddev": 12.750,
+        "samples": 120
+      },
+      "rpm": 21700,
+      "erpm": 151900,
+      "current_a": 44.40,
+      "voltage_v": 23.21,
+      "temperature_c": 54.5
+    },
+    {
+      "throttle": 1400,
+      "load": {
+        "mean": 2498.00,
+        "min": 2460.50,
+        "max": 2535.50,
+        "stddev": 15.000,
+        "samples": 120
+      },
+      "rpm": 23580,
+      "erpm": 165060,
+      "current_a": 53.20,
+      "voltage_v": 22.82,
+      "temperature_c": 59.0
+    },
+    {
+      "throttle": 1500,
+      "load": {
+        "mean": 2876.50,
+        "min": 2832.00,
+        "max": 2921.00,
+        "stddev": 17.600,
+        "samples": 120
+      },
+      "rpm": 25420,
+      "erpm": 177940,
+      "current_a": 63.10,
+      "voltage_v": 22.38,
+      "temperature_c": 64.0
+    }
+  ]
+}
