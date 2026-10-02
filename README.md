@@ -38,6 +38,7 @@ The following components comprise the validated, battle-tested hardware configur
 | **Brushless Motor** | Brushless Outrunner (e.g. 22xx–28xx series) | 14 poles (7 pole pairs) typical | Configurable pole count in web UI and `src/config.h`. |
 | **Main Battery / Power Supply** | LiPo Battery / Bench Power Supply | 4S–6S (e.g. 22.2V–25.2V 6S) rated for expected motor current draw | Power ground and ESP32 GND must be bonded together in a star-ground topology. |
 | **Reference Calibration Weight** | Precision test weight | 500 g or 1000 g certified weight | Used with web UI **Calibrate** button to calibrate scale factor. |
+| **Enclosure** | **3D Printed Case & Lid** | Parametric OpenSCAD model (`case.scad`) & ready-to-print mesh (`case.stl`) | Protective electronics enclosure for the ESP32 and wiring. |
 
 ---
 
